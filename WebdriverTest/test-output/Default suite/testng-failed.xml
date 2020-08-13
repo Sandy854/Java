@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Test.Verification_Page_de_connexion_EP">
+        <methods>
+          <include name="verifier_presence_champ_email"/>
+          <include name="cliquer_sur_le_bouton_se_connecter_du_header"/>
+          <include name="verifier_presence_onglet_creer_un_compte"/>
+          <include name="beforeTest"/>
+          <include name="verifier_presence_bouton_facebook"/>
+          <include name="cliquer_sur_onglet_se_connecter"/>
+          <include name="verifier_presence_bouton_google"/>
+          <include name="verifier_presence_onglet_se_connecter"/>
+        </methods>
+      </class> <!-- com.Test.Verification_Page_de_connexion_EP -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
